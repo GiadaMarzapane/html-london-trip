@@ -7,80 +7,93 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>Il mio viaggio a Londra</h1>    <!-- Titolo -->
-        <img src="img/pexels-bill-emrich-230794-0.jpg" alt="foto sinistra Londra">
-        <img src="img/pexels-bill-emrich-230794-1.jpg" alt="foto centrale Londra">
-        <img src="img/pexels-bill-emrich-230794-2.jpg" alt="foto destra Londra">
+        <header>
+            <h1>Il mio viaggio a Londra</h1>    <!-- Titolo -->
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="foto sinistra Londra">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="foto centrale Londra">
+            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="foto destra Londra">
 
-        <hr> <!-- Linea separatrice -->
+            <hr> <!-- Linea separatrice -->
+        </header>
+        <main>
+            <section> <!-- Le mie spese + tabella -->
+                    <h2>Le mie spese</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Numero</th>
+                            <th>Descrizione</th>
+                            <th>Costo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Biglietto Aereo</td>
+                            <td>120€</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Biglietto Aereo</td>
+                            <td>120€</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Biglietto Aereo</td>
+                            <td>120€</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Totale</td>
+                            <td></td>
+                            <td>360€</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section> <!-- Fine sezione spese -->
+            <hr> 
+            <section> <!-- Inizio sezione Cose da fare + lista -->
+                <h3>Cose da fare</h3> 
+                    <ul>
+                        <li>Visitare la Tower of London &#10008;</li>
+                        <li>Visitare greenwich &#10004;</li>
+                        <li>Ascoltare un artista di strada a Covent Garden &#10004;</li>
+                        <li>Mangiare il tipico Fish and Chips inglese &#10008;</li>
+                    </ul>
+            </section> <!-- Fine sezione cose da fare -->
+            <hr>
+            <section> <!-- Inizio sezione Info utili + lista nella lista -->
+                <h3>Info utili:</h3> 
+                <ol>
+                    <li>Numeri utili di emergenza
+                        <ul>
+                            <li><strong>999</strong> - Emergenza</li>
+                            <li><strong>101</strong> - Numero polizia</li>
+                            <li><strong>111</strong> - Numero assistenza medica</li>
+                        </ul>
+                    </li>
+                    <li>Hotel
+                        <ul>
+                            <li><strong>Nome hotel:</strong> Buckingham Palace</li>
+                            <li><strong>Indirizzo hotel:</strong> Westminster, London SW1A 1AA, Regno Unito</li>
+                        </ul>
+                    </li>
+                    <li>Aereo
+                        <ul>
+                            <li><strong>Volo di Andata:</strong> YI234X, ore 9.30 da Milano Malpensa</li>
+                            <li><strong>Volo di Ritorno:</strong> YI236X, ore 18.30 da London Heathrow</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section> <!-- Fine sezione Cose da fare -->
 
-        <h2>Le mie spese</h2> <!-- Le mie spese + tabella -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120€</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Totale</td>
-                    <td></td>
-                    <td>360€</td>
-                </tr>
-            </tfoot>
-        </table>
-        <hr> <!-- Fine sezione spese -->
-        <h3>Cose da fare</h3> <!-- Inizio sezione Cose da fare + lista -->
-        <ul>
-            <li>Visitare la Tower of London &#10008;</li>
-            <li>Visitare greenwich &#10004;</li>
-            <li>Ascoltare un artista di strada a Covent Garden &#10004;</li>
-            <li>Mangiare il tipico Fish and Chips inglese &#10008;</li>
-        </ul>
-
-        <hr> <!-- Fine sezione cose da fare -->
-
-        <h3>Info utili:</h3> <!-- Inizio sezione Info utili + lista nella lista -->
-        <ol>
-            <li>Numeri utili di emergenza
-                <ul>
-                    <li><strong>999</strong> - Emergenza</li>
-                    <li><strong>101</strong> - Numero polizia</li>
-                    <li><strong>111</strong> - Numero assistenza medica</li>
-                </ul>
-            </li>
-            <li>Hotel
-                <ul>
-                    <li><strong>Nome hotel:</strong> Buckingham Palace</li>
-                    <li><strong>Indirizzo hotel:</strong> Westminster, London SW1A 1AA, Regno Unito</li>
-                </ul>
-            </li>
-            <li>Hotel
-                <ul>
-                    <li><strong>Volo di Andata:</strong> YI234X, ore 9.30 da Milano Malpensa</li>
-                    <li><strong>Volo di Ritorno:</strong> YI236X, ore 18,30 da London Heathrow</li>
-                </ul>
-            </li>
-        </ol>
-        <hr> <!-- Fine sezione Cose da fare -->
+            <hr>
+            <section> <!-- Inizio sezione Le foto -->
+                <h3>Le foto</h3> 
+                <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="vista Londra">
+                <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="biblioteca Londra">
+            </section><!-- Fine sezione Le foto -->            
+        </main>
     </body>
 </html>
